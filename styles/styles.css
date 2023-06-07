@@ -1,0 +1,168 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-container {
+    background-color: #fff6e5; /* Creamy color for the top container */
+    padding: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* #min-height: 100vh; Ensures the container takes up the full viewport height */
+    flex-direction: column;
+    text-align: center; /* Add text alignment to center the content horizontally */
+  }
+  
+  .cloud-left,
+  .cloud-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    .cloud-left {
+    left: 20px; /* Adjust the left distance as needed */
+    }
+
+    .cloud-right {
+    right: 20px; /* Adjust the right distance as needed */
+    }
+  
+  body {
+    background-color: #f9ece9; /* Soft peach color for the background */
+    color: #594f4f; /* Dark brown color for the text */
+  }
+  
+  
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .pro {
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+  }
+  
+  /* Apply styles to the mid container */
+  .mid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .profile {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .skills {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .skill-row {
+    margin-bottom: 20px;
+    text-align: center; /* Center the content horizontally */
+  }
+  .skill-row h3 {
+    text-align: center; /* Center the header text */
+  }
+  
+  h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+  }
+  
+  .h3-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .mysql-logo,
+  .perl-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-me {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e3c3a4;
+    color: #594f4f;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a transition effect for a smoother change */
+  }
+  
+  .btn:hover {
+    background-color: #7fa4b8;
+    transform: scale(1.1); /* Add a scale transformation on hover to make it more interactive */
+  }
+  
+  
+  /* Apply styles to the bottom container */
+  .bottom-container {
+    background-color: #fff6e5; /* Creamy color for the bottom container */
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .footer-link {
+    margin-right: 10px;
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+ .me {
+        border-radius: 50%;
+}  
+
+.projects-container {
+    margin-top: 20px;
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .project-links {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Align the links horizontally */
+    text-align: left; /* Reset the text alignment for the links */
+  }
+  
+  .project-links li {
+    margin-bottom: 10px;
+  }
+  
+  .project-links li a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  
